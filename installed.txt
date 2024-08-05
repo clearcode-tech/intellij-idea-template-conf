@@ -1,0 +1,8 @@
+lermitage.intellij.extratci
+com.codeium.intellij
+de.juserv.intellij-propertiessort
+CheckStyle-IDEA
+com.github.camork.fileExpander
+izhangzhihao.rainbow.brackets
+org.sonarlint.idea
+org.intellij.scala

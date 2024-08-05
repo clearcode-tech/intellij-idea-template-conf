@@ -1,0 +1,20 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="model.java" file-name="./business_logic/models/{$Model_name}" reformat="true" live-template-enabled="true">
+        <template name="model.java.child.0.java" file-name="./business_logic/models/ids/ModelWith${Model_name}Id" reformat="true" live-template-enabled="false" />
+        <template name="model.java.child.1.java" file-name="./business_logic/models/ids/{$Model_name}Id" reformat="true" live-template-enabled="false" />
+        <template name="model.java.child.2.java" file-name="./business_logic/services/models/${Model_name}Service" reformat="false" live-template-enabled="false" />
+        <template name="model.java.child.3.java" file-name="./business_logic/repositories/${Model_name}Repository" reformat="true" live-template-enabled="false" />
+        <template name="model.java.child.4.sql" file-name="../../../../conf/migrations/${server_name}/tenants/${YEAR}/V${YEAR}.${MONTH}.${DAY}.${HOUR}.${MINUTE}__HRL-${Branch_number}_Create_${Table_name}_table" reformat="true" live-template-enabled="false" />
+        <template name="model.java.child.5.java" file-name="./repositories_ebean/Ebean${Model_name}Repository" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="model.java.child.0.java" file-name="./business_logic/models/ids/ModelWith${Model_name}Id" reformat="true" live-template-enabled="false" />
+      <template name="model.java.child.1.java" file-name="./business_logic/models/ids/{$Model_name}Id" reformat="true" live-template-enabled="false" />
+      <template name="model.java.child.2.java" file-name="./business_logic/services/models/${Model_name}Service" reformat="false" live-template-enabled="false" />
+      <template name="model.java.child.3.java" file-name="./business_logic/repositories/${Model_name}Repository" reformat="true" live-template-enabled="false" />
+      <template name="model.java.child.4.sql" file-name="../../../../conf/migrations/${server_name}/tenants/${YEAR}/V${YEAR}.${MONTH}.${DAY}.${HOUR}.${MINUTE}__HRL-${Branch_number}_Create_${Table_name}_table" reformat="true" live-template-enabled="false" />
+      <template name="model.java.child.5.java" file-name="./repositories_ebean/Ebean${Model_name}Repository" reformat="true" live-template-enabled="false" />
+    </default_templates>
+  </component>
+</application>
